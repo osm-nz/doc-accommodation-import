@@ -3,3 +3,7 @@ yarn.lock
 package-lock.json
 out
 *.csv
+tmp
+output
+.env
+.DS_Store
