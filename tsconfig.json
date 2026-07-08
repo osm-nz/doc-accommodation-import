@@ -1,10 +1,7 @@
 {
-  "compilerOptions": {
-    "noEmit": true,
-    "lib": ["es2021"],
-    "strict": true,
-    "downlevelIteration": true,
-    "esModuleInterop": true
-  },
-  "include": ["scripts"]
+ "extends": "eslint-config-kyle/tsconfig.base.json",
+ "compilerOptions": {
+  "types": ["node"]
+ },
+  "include": ["src"]
 }

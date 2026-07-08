@@ -18,6 +18,7 @@ const k0 = 0.9996;
 // compute constants
 
 const b = a * (1 - f);
+// eslint-disable-next-line unicorn/prevent-abbreviations
 const eˢ = 2 * f - f ** 2; // e²
 
 const A0 = 1 - eˢ / 4 - (3 * eˢ ** 2) / 64 - (5 * eˢ ** 3) / 256;
@@ -43,7 +44,7 @@ export function nztmToWgs(E: number, N: number): [lng: number, lat: number] {
       (1 - n ** 2) *
       (1 + (9 * n ** 2) / 4 + (225 * n ** 4) / 64) *
       π) /
-    180.0;
+    180;
   const Σ = (mʼ * π) / (180 * G);
   const Φʼ =
     Σ +
