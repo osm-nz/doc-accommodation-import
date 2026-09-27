@@ -32,7 +32,7 @@ const config: Config = {
     type: 'file',
     file: DOC_SOURCE_FILE,
   },
-  o_data: {
+  osm_data: {
     source: {
       type: 'overpass',
       // overpass_query_file is not specified, so it'll default to downloading everything with ref:doc
