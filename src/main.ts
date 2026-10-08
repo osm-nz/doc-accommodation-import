@@ -25,8 +25,8 @@ const config: Config = {
     name: 'DOC Huts and Campsites',
     description:
       'Huts, Campsites, and Lodges from the Department of Conservation (DoC), NZ',
-    git_repository: 'https://github.com/osm-nz/doc-accommodation-import',
     wiki_page: 'https://osm.wiki/DOC',
+    license_waiver_url: 'https://osm.wiki/DOC#Data_Attribution',
   },
   source_data: {
     type: 'file',
